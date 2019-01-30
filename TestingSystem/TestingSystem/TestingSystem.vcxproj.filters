@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{64d1fb08-a691-4e56-89ed-c75cc069adb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{7822c896-3d09-450b-9880-f3342632289f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\UI">
+      <UniqueIdentifier>{54c525b9-7313-4dc5-8e8e-9a03bcbcf537}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainHeader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Logic\UI</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
