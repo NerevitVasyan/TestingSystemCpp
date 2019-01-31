@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClInclude Include="MainHeader.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="TestingService.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

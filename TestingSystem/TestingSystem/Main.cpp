@@ -21,9 +21,12 @@ int main()
 
 	//cout << u << endl;
 
-	Menu m({"asd","asd"});
-	m.GetOption();
-	
+	Menu m({"Registration","Login","Exit"},"Welcome To Testing System!");
+	string s = m.GetOption();
+	cout << "You choose <" << s << "> option" << endl;;
+
+
+
 
 	system("pause");
 }
