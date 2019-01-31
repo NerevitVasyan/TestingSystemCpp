@@ -73,6 +73,7 @@ public:
 			}
 			else
 			{
+				system("cls");
 				return Options[CursorPosition];
 			}
 			

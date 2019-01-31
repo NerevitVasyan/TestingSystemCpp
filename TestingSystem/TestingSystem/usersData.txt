@@ -1,4 +1,0 @@
-Login:    vasyan228
-Password: qwerty
-Name:     VitaliiYalovenko
-Phone:    0676985526
